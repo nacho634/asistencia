@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Asistencia 7° Programación</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0d0f14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -1082,6 +1086,10 @@ function showToast(msg, error = false) {
   t.className = 'toast' + (error ? ' error' : '');
   setTimeout(() => t.classList.add('show'), 10);
   setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
 }
 </script>
 </body>
