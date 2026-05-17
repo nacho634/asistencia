@@ -1,0 +1,24 @@
+{
+  "name": "Asistencia 7° Programación",
+  "short_name": "Asistencia",
+  "description": "Control de faltas para 7° año de Programación",
+  "start_url": "/asistencia/",
+  "display": "standalone",
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/0d0f14/4fffb0?text=A",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/0d0f14/4fffb0?text=A",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
